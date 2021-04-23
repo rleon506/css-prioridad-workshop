@@ -1,0 +1,22 @@
+/*El id tiene prioridad sobre la clase*/
+/*
+#title {
+ color: red;
+}
+*/
+
+/*Cuando son clases la prioridad es por orden en el documento CSS, se van sobreescribiendo por el orden*/
+.headings {
+  color: blue;
+}
+
+.text {
+  text-decoration: underline;
+  color: pink;
+}
+
+p {
+  color: red;
+}
+
+/*Entre mas específico sea tiene mas prioridad*/
